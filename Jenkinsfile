@@ -4,7 +4,7 @@ agent any
 stages{
 stage("Clone Repository") {
 steps {
-git url: "https://github.com/snehareddie8836/cnslab.git', branch: 'main'
+git url: "https://github.com/snehareddie8836/devopslab.git", branch: 'main'
 }
 }
 
